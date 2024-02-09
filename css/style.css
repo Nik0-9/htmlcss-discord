@@ -36,6 +36,12 @@ header{
 .bg-gray{
     background-color: var(--color-section-bg);
 }
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+}
 /* footer */
 footer{
     background-color: var(--color-primary);
@@ -58,6 +64,9 @@ footer{
 .s-between{
     justify-content: space-between;
 }
-.wrap{
-    flex-wrap: wrap;
+.s-around{
+    justify-content: space-around;
+}
+.r-reverse{
+    flex-direction:row-reverse;
 }
