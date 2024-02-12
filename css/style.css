@@ -68,11 +68,11 @@ body {
 }
 
 .btn:hover{
-    box-shadow: 5px 8px 4px ;
+    box-shadow: 5px 5px 4px ;
 }
 
 .btn-hover-grey:hover{
-    box-shadow: 5px 8px 10px grey;
+    box-shadow: 5px 5px 4px lightgrey;
 }
 
 /* FLEX-UTILITY */
