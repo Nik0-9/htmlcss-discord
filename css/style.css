@@ -12,8 +12,12 @@ ul {
 a{
     text-decoration: none;
 }
-a:hover(.btn){
+a:hover:not(.btn){
     text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
 }
 
 :root {
@@ -94,7 +98,7 @@ body {
 
 .align-center {
     align-items: center;
-    /* align-content: center; */
+    align-content: center;
 }
 
 .wrap{
@@ -122,10 +126,17 @@ a {
     min-height: 600px;
     background-size: cover;
 }
+header h1{
+    margin-bottom: 25px;
+}
 
 header p{
-    margin-bottom: 20px;
-}
+    margin-bottom: 40px;
+} 
+
+.button-margin-top{
+    margin-top: 50px;
+} 
 
 nav>ul>li {
     margin: 0 10px;
@@ -161,7 +172,11 @@ nav>ul>li {
 
 main h2{
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+}
+
+#windows-download{
+    margin-top: 20px;
 }
 
 .adapt{
