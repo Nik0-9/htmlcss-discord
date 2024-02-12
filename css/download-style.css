@@ -165,3 +165,50 @@ a {
     margin-top: 25px;
 }
 
+.box-linux-img{
+    background-image: url('../img/download-linux.svg');
+    background-repeat: no-repeat;
+    min-height: 367px;
+    margin-top: 25px;
+}
+
+.box-mac-img{
+    background-image: url('../img/download-mac.svg');
+    background-repeat: no-repeat;
+    min-height: 367px;
+    margin-top: 25px;
+}
+/* FOOTER */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+    padding: 3% 5%;
+}
+
+.footer-icon-pudding{
+    padding-right: 40%;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer .top{
+    margin-bottom: 3%;
+}
+
+footer .bottom {
+    margin: 2% 4%;
+    border-top: 1px solid rgba(174, 187, 231, 0.7);
+}
+
+#italy-flag {
+    width: 20px;
+}
+
+footer h2, h3 {
+    font-size: 30px;
+    color: var(--color-contrast);
+}
+
+
