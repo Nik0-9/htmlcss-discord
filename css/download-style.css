@@ -1,4 +1,4 @@
-/* reset */
+reset
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,15 +9,11 @@ ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
-a:hover:not(.btn){
+a:hover:not(.btn) {
     text-decoration: underline;
-}
-
-p{
-    font-size: 20px;
 }
 
 :root {
@@ -28,7 +24,6 @@ p{
     --color-section-bg: #f6f6f6;
     --color-contrast: rgb(174, 187, 231);
 }
-
 /* general */
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -105,15 +100,16 @@ body {
     flex-wrap: wrap;
 }
 
+/* Header */
 
-/* HEADER */
 header {
-    background-color: var(--color-header-bg);
+    background-color: var(--color-header-download-bg);
     color: var(--color-scondary);
+    min-height: 600px;
 }
 
-nav {
-    padding: 1%;
+nav>ul>li {
+    margin: 0 10px;
 }
 
 nav,
@@ -121,107 +117,51 @@ a {
     color: var(--color-scondary);
 }
 
-#hero {
-    background-image: url('../img/jumbo.png');
-    min-height: 600px;
-    background-size: cover;
-}
-header h1{
-    margin-bottom: 25px;
+#hero{
+    max-width: 350px;
 }
 
-header p{
-    margin-bottom: 40px;
-} 
-
-.button-margin-top{
-    margin-top: 50px;
-} 
-
-nav>ul>li {
-    margin: 0 10px;
+#hero>
+.left{
+    padding: 0 auto;
 }
 
-/* MAIN */
-.bg-grey {
+/* main */
+
+.box{
     background-color: var(--color-section-bg);
+    border-radius: 50px;
+    margin: 10px;
+    padding: 3% 3% 0 3%;
 }
 
-.left {
-    width: 65%;
+.main-left {
+    width: 50%;
 }
 
-.right {
-    padding: 5%;
-    width: 35%;
+.main-right {
+    width: 50%;
 }
 
-.main-pudding {
-    padding: 5% 5%;
+.end {
+    align-self: flex-end;
 }
 
-.main-txt-align {
-    text-align: center;
+.start {
+    align-self: flex-start;
 }
 
-.mini-star{
-    background-image: url('../img/stars.svg');
-    background-repeat:no-repeat;
-    background-size: contain;
+.box-ios-img{
+    background-image: url('../img/download-iOS.svg');
+    background-repeat: no-repeat;
+    min-height: 367px;
+    margin-top: 25px;
 }
 
-main h2{
-    font-size: 30px;
-    margin-bottom: 16px;
+.box-android-img{
+    background-image: url('../img/download-android.svg');
+    background-repeat: no-repeat;
+    min-height: 367px;
+    margin-top: 25px;
 }
 
-#windows-download{
-    margin-top: 20px;
-}
-
-.adapt{
-    max-width: 100%;
-}
-
-.wave{
-    height: 60px;
-    filter: opacity(0.04);
-    background-image: url('../img/wave.svg');
-}
-
-.wave-invert{
-    transform: rotateX(180deg);                 
-}
-
-/* FOOTER */
-footer {
-    background-color: var(--color-primary);
-    color: var(--color-scondary);
-    padding: 3% 5%;
-}
-
-.footer-icon-pudding{
-    padding-right: 40%;
-}
-
-footer li{
-    margin-bottom: 15px;
-}
-
-footer .top{
-    margin-bottom: 3%;
-}
-
-footer .bottom {
-    margin: 2% 4%;
-    border-top: 1px solid rgba(174, 187, 231, 0.7);
-}
-
-#italy-flag {
-    width: 20px;
-}
-
-footer h2, h3 {
-    font-size: 30px;
-    color: var(--color-contrast);
-}
