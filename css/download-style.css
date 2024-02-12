@@ -1,5 +1,4 @@
-reset
-* {
+reset * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,6 +11,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 a:hover:not(.btn) {
     text-decoration: underline;
 }
@@ -24,6 +24,7 @@ a:hover:not(.btn) {
     --color-section-bg: #f6f6f6;
     --color-contrast: rgb(174, 187, 231);
 }
+
 /* general */
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -42,17 +43,18 @@ body {
     text-align: center;
 }
 
-.button-white{
+.button-white {
     color: black;
     background-color: var(--color-scondary);
 }
-.button-black{
+
+.button-black {
     color: var(--color-scondary);
     background-color: var(--color-primary);
 }
 
-.button-contrast{
-    color:var(--color-scondary);
+.button-contrast {
+    color: var(--color-scondary);
     background-color: var(--color-contrast);
 }
 
@@ -62,11 +64,11 @@ body {
     padding: 7px 16px;
 }
 
-.btn:hover{
-    box-shadow: 5px 5px 4px ;
+.btn:hover {
+    box-shadow: 5px 5px 4px;
 }
 
-.btn-hover-grey:hover{
+.btn-hover-grey:hover {
     box-shadow: 5px 5px 4px lightgrey;
 }
 
@@ -96,7 +98,7 @@ body {
     align-content: center;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
@@ -117,18 +119,17 @@ a {
     color: var(--color-scondary);
 }
 
-#hero{
+#hero {
     max-width: 350px;
 }
 
-#hero>
-.left{
+#hero>.left {
     padding: 0 auto;
 }
 
 /* main */
 
-.box{
+.box {
     background-color: var(--color-section-bg);
     border-radius: 50px;
     margin: 10px;
@@ -151,33 +152,38 @@ a {
     align-self: flex-start;
 }
 
-.box-ios-img{
+.box-ios-img {
     background-image: url('../img/download-iOS.svg');
     background-repeat: no-repeat;
     min-height: 367px;
     margin-top: 25px;
 }
 
-.box-android-img{
+.box-android-img {
     background-image: url('../img/download-android.svg');
     background-repeat: no-repeat;
     min-height: 367px;
     margin-top: 25px;
 }
 
-.box-linux-img{
+.box-linux-img {
     background-image: url('../img/download-linux.svg');
     background-repeat: no-repeat;
     min-height: 367px;
     margin-top: 25px;
 }
 
-.box-mac-img{
+.box-mac-img {
     background-image: url('../img/download-mac.svg');
     background-repeat: no-repeat;
     min-height: 367px;
     margin-top: 25px;
 }
+
+.txt-center{
+    text-align: center;
+}
+
 /* FOOTER */
 footer {
     background-color: var(--color-primary);
@@ -185,15 +191,15 @@ footer {
     padding: 3% 5%;
 }
 
-.footer-icon-pudding{
+.footer-icon-pudding {
     padding-right: 40%;
 }
 
-footer li{
+footer li {
     margin-bottom: 15px;
 }
 
-footer .top{
+footer .top {
     margin-bottom: 3%;
 }
 
@@ -206,9 +212,8 @@ footer .bottom {
     width: 20px;
 }
 
-footer h2, h3 {
+footer h2,
+h3 {
     font-size: 30px;
     color: var(--color-contrast);
 }
-
-
