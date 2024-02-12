@@ -12,6 +12,9 @@ ul {
 a{
     text-decoration: none;
 }
+a:hover(.btn){
+    text-decoration: underline;
+}
 
 :root {
     --color-scondary: #ffffff;
@@ -25,6 +28,74 @@ a{
 body {
     font-family: 'Noto Sans', sans-serif;
     color: black;
+}
+
+/* UTILITY */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-white{
+    color: black;
+    background-color: var(--color-scondary);
+}
+.button-black{
+    color: var(--color-scondary);
+    background-color: var(--color-primary);
+}
+
+.button-contrast{
+    color:var(--color-scondary);
+    background-color: var(--color-contrast);
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 7px 16px;
+}
+.btn-hover-grey:hover{
+    box-shadow: 5px 8px 10px grey;
+}
+
+.btn:hover{
+    box-shadow: 5px 8px 10px ;
+}
+
+/* FLEX-UTILITY */
+.d-flex {
+    display: flex;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.s-around {
+    justify-content: space-around;
+}
+
+.r-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -57,7 +128,7 @@ nav>ul>li {
 }
 
 /* MAIN */
-.bg-gray {
+.bg-grey {
     background-color: var(--color-section-bg);
 }
 
@@ -93,6 +164,16 @@ main h2{
     max-width: 100%;
 }
 
+.wave{
+    height: 100%;
+    filter: opacity(0.04);
+    background-image: url('../img/wave.svg');
+}
+
+.wave-invert{
+    transform: rotateX(180deg);                 
+}
+
 /* FOOTER */
 footer {
     background-color: var(--color-primary);
@@ -124,64 +205,4 @@ footer .bottom {
 footer h2, h3 {
     font-size: 30px;
     color: var(--color-contrast);
-}
-
-/* UTILITY */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.small-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.button-white{
-    color: black;
-    background-color: var(--color-scondary);
-}
-.button-black{
-    color: var(--color-scondary);
-    background-color: var(--color-primary);
-}
-
-.button-contrast{
-    color:var(--color-scondary);
-    background-color: var(--color-contrast);
-}
-
-.btn {
-    border-radius: 40px;
-    padding: 7px 16px;
-}
-
-/* FLEX-UTILITY */
-.d-flex {
-    display: flex;
-}
-
-.s-between {
-    justify-content: space-between;
-}
-
-.s-around {
-    justify-content: space-around;
-}
-
-.r-reverse {
-    flex-direction: row-reverse;
-}
-
-.column {
-    flex-direction: column;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.wrap{
-    flex-wrap: wrap;
 }
