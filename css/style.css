@@ -44,9 +44,8 @@ a {
 
 #hero {
     background-image: url('../img/jumbo.png');
-    min-height: 500px;
+    min-height: 600px;
     background-size: cover;
-    align-items: center;
 }
 
 header p{
@@ -86,7 +85,12 @@ nav>ul>li {
 }
 
 main h2{
+    font-size: 30px;
     margin-bottom: 10px;
+}
+
+.adapt{
+    max-width: 100%;
 }
 
 /* FOOTER */
@@ -101,7 +105,7 @@ footer {
 }
 
 footer li{
-    margin: 3% 0;
+    margin-bottom: 15px;
 }
 
 footer .top{
@@ -109,7 +113,7 @@ footer .top{
 }
 
 footer .bottom {
-    margin: 2% 6%;
+    margin: 2% 4%;
     border-top: 1px solid rgba(174, 187, 231, 0.7);
 }
 
@@ -117,7 +121,8 @@ footer .bottom {
     width: 20px;
 }
 
-footer h3 {
+footer h2, h3 {
+    font-size: 30px;
     color: var(--color-contrast);
 }
 
@@ -175,4 +180,8 @@ footer h3 {
 
 .align-center {
     align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
