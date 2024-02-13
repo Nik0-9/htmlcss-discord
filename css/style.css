@@ -171,11 +171,18 @@ nav>ul>li {
     background-size: contain;
 }
 
+main h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
 #windows-download{
     margin-top: 20px;
 }
 
-
+.adapt{
+    max-width: 100%;
+}
 
 .wave{
     height: 60px;

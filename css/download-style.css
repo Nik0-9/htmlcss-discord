@@ -125,7 +125,7 @@ body {
 header {
     background-color: var(--color-header-download-bg);
     color: var(--color-scondary);
-    min-height: 500px;
+    min-height: 550px;
 }
 nav {
     padding: 2%;
