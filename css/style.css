@@ -67,12 +67,12 @@ body {
     padding: 7px 16px;
 }
 
-.btn:hover{
-    box-shadow: 5px 5px 4px ;
+.btn-hover-white:hover{
+    box-shadow: inset 0px 0px 20px 20px rgba(221, 221, 221, 0.2);
 }
 
 .btn-hover-grey:hover{
-    box-shadow: 5px 5px 4px lightgrey;
+    box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* FLEX-UTILITY */
@@ -113,7 +113,8 @@ header {
 }
 
 nav {
-    padding: 1%;
+    /* margin-top: 3px; */
+    padding: 2%;
 }
 
 nav,
@@ -170,18 +171,11 @@ nav>ul>li {
     background-size: contain;
 }
 
-main h2{
-    font-size: 30px;
-    margin-bottom: 16px;
-}
-
 #windows-download{
     margin-top: 20px;
 }
 
-.adapt{
-    max-width: 100%;
-}
+
 
 .wave{
     height: 60px;
@@ -200,6 +194,10 @@ footer {
     padding: 3% 5%;
 }
 
+.h2-margin-bot{
+    margin-bottom: 15px;
+}
+
 .footer-icon-pudding{
     padding-right: 40%;
 }
@@ -208,9 +206,7 @@ footer li{
     margin-bottom: 15px;
 }
 
-footer .top{
-    margin-bottom: 3%;
-}
+
 
 footer .bottom {
     margin: 2% 4%;
